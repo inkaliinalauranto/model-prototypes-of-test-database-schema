@@ -12,7 +12,7 @@ function App() {
         <h1>Testitietokannan skeema Visual Paradigmilla reverse engineerattuna</h1>
         <p className='read-the-docs'>(Testitietokantaskeema perustuu Juhani Kurun vuonna 2024 pitämän Web-ohjelmointi ja sovelluskehykset -opintojakson tehtävän alustusmateriaaleihin)</p>
         <h2>Fyysinen malli</h2>
-        <p>Skeeman reverse engineeraus onnistuu automatisoidusti esimerkiksi SQL-dumpista:</p>
+        <p>Skeeman reverse engineeraus onnistuu automatisoidusti esimerkiksi SQL-dumpista. Tietokannan reverse engineeraaminen fyysiseksi malliksi on opinnäytetyön aiheeseen peilaten vain välivaihe.</p>
         <img src={physicalVP} alt="Fyysinen malli" />
         <h2>Looginen malli</h2>
         <p>Fyysisen mallin abstraktoiminen loogiseksi on tähän mennessä selvitetyn perusteella melko manuaalinen operaatio. Tämä looginen malli ei välttämättä noudata vielä kaikkia taiteen sääntöjä.</p>
